@@ -5,11 +5,21 @@
 <head>
 	<link rel="stylesheet" href="styles.css">
 	<style>
-        table{
+        table {
             background-color: yellow;
+            border-collapse: collapse;
+            width: 100%;
         }
-        table,th,tr,td{
+        table, th, tr, td {
             border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        caption {
+            font-weight: bold;
+            margin: 10px;
         }
     </style>
 </head>
@@ -17,8 +27,8 @@
 <body>
 	<!-- the entire body must be written by student -->
 
-	<caption>Student Details</caption>
-    <table>
+	<table>
+        <caption>Student Details</caption>
         <thead>
             <tr>
                 <th>NAME</th>
@@ -26,7 +36,6 @@
                 <th>BRANCH</th>
             </tr>
         </thead>
-            
         <tbody>
             <tr>
                 <td>Shaw</td>
